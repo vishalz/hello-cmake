@@ -1,4 +1,4 @@
-#include "complex.h"
+#include "vmath/complex.h"
 Complex::Complex(): m_real{0}, m_imag{0}{}
 Complex::Complex(double t_real): m_real{m_real = t_real}, m_imag{0}{}
 Complex::Complex(double t_real, double t_imag): m_real{m_real = t_real}, m_imag{t_imag}{}
