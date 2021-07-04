@@ -36,7 +36,7 @@
 *.i
 *.s
 build/
-.clang/
+.clangd/
 compile_commands.json
 
 
